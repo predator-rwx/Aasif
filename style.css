@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: green; */
+
+    /* temp  */
+    /* height: 200vh; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar  */
+
+.nav {
+    background-color: white;
+
+    /* width: 100%; */
+
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.logo h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+
+    margin: 1rem;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.nav ul li {
+    list-style: none;
+    /* margin: 1rem; */
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+.nav ul li a:hover{
+    /* color: blue; */
+    color: darkorange;
+}
+
+/* intro  */
+
+.intro {
+    /* background-color: rgb(206, 202, 202); */
+    height: 80vh;
+
+    /* temp  */
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
+
+    background-image: url(/res/bg/b4.png);
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-size: contain;
+    /* background-blend-mode: color-burn; */
+
+}
+
+.name {
+    /* background-color: red; */
+    /* color: rgb(0, 0, 0); */
+    font-size: 5rem;
+    
+    text-align: center;
+    
+    /* temp  */
+
+    /* margin-top: 20%; */
+    /* margin-left: 5%; */
+    /* padding: 5px; */
+    color: white;
+    
+}
+
+.des {
+    color: rgb(194, 193, 193);
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+@media(min-width: 768px){
+    .name {
+        font-size: 10rem;
+    }
+    .des {
+        font-size: 3rem;
+    }
+}
+
+@media(max-height: 375px){
+    .name {
+        font-size: 2rem;
+    }
+    .des {
+        font-size: 20px;
+    }
+}
+
+
+.resume {
+    text-align: center;
+    margin-top: 3rem;
+}
+.resume a button {
+    /* height: 2rem; */
+    /* width: 5rem; */
+
+    /* border-radius: 5px; */
+    /* border: 2px solid black; */
+    /* temp  */
+
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.resume a button:hover {
+    /* background-color: rgb(74, 74, 230); */
+    background-color: darkorange;
+}
+
+/* project  */
+
+.project {
+    background-color: white;
+    /* height: 70vh; */
+}
+
+.project h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.displayProject {
+    background-color: white;
+    border-radius: 10px;
+
+    display: grid;
+    grid-gap: 4rem;
+    grid-template-columns: repeat(1, 1fr);
+}
+/* img  */
+.pro {
+    background-color: white;
+    height: 50vh;
+    width: 100%;
+
+    
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 20px;
+}
+.pro:hover {
+    /* border: 2px solid gray; */
+    box-shadow: 10px 10px 15px gray;
+}
+
+@media(min-width: 768px){
+    .displayProject {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+.pro img {
+    height: 70%;
+    width: 100%;
+    
+    border-radius: 10px;
+}
+
+.pro p , h3{
+    margin-top: 10px;
+    padding-left: 10px;
+    
+}
+
+@media(max-height: 375px){
+    .displayProject {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .pro p , h3{
+        margin-top: 5px;
+        padding-left: 10px;
+        
+    }
+}
+
+/* contact  */
+
+.contact {
+    height: 70vh;
+    align-items: center;
+}
+
+.contact form h2 {
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact label {
+    text-align: left;
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact button:hover {
+    background-color: darkorange;
+}
+
+@media(max-height: 375px){
+    .contact {
+        height: 150vh;
+    }
+}
+
+/* Footer styling */
+footer  {
+    background-color: black;
+    /* color: white; */
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
