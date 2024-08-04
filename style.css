@@ -155,6 +155,8 @@ html {
 .project {
     background-color: white;
     /* height: 70vh; */
+    /* display: flex; */
+    /* align-items: center; */
 }
 
 .project h2 {
@@ -172,12 +174,15 @@ html {
     display: grid;
     grid-gap: 4rem;
     grid-template-columns: repeat(1, 1fr);
+
+    align-items: center;
+    justify-items: center;
 }
 /* img  */
 .pro {
     background-color: white;
     height: 50vh;
-    width: 100%;
+    width: 90%;
 
     
     box-shadow: 10px 10px 10px gray;
