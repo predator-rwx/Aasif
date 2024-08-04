@@ -7,8 +7,6 @@
 body {
     background-color: transparent;
 
-    /* temp  */
-    /* height: 200vh; */
 }
 
 html {
@@ -20,11 +18,7 @@ html {
 .nav {
     background-color: white;
 
-    /* width: 100%; */
-
     align-items: center;
-    /* display: grid; */
-    /* grid-template-columns: repeat(2, 1fr); */
 
     display: flex;
     flex-flow: row wrap;
@@ -46,9 +40,7 @@ html {
 }
 
 .nav ul {
-    /* display: grid; */
-    /* grid-template-columns: repeat(3, 1fr); */
-    /* grid-gap: 10px; */
+
     padding-right: 1rem;
 
     display: flex;
@@ -59,7 +51,7 @@ html {
 
 .nav ul li {
     list-style: none;
-    /* margin: 1rem; */
+
 }
 
 .nav ul li a{
@@ -69,47 +61,41 @@ html {
 }
 
 .nav ul li a:hover{
-    /* color: blue; */
+
     color: darkorange;
 }
 
 /* intro  */
 
 .intro {
-    /* background-color: rgb(206, 202, 202); */
+   
     height: 80vh;
-
-    /* temp  */
-    /* display: grid; */
-    /* grid-template-columns: repeat(2, 1fr); */
 
     background-image: url('res/bg/b4.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* background-blend-mode: color-burn; */
+   
 
 }
 
 .name {
-    /* background-color: red; */
-    /* color: rgb(0, 0, 0); */
+
     font-size: 4rem;
     
     text-align: center;
     
     /* temp  */
 
-    /* margin-top: 20%; */
-    /* margin-left: 5%; */
+
     padding: 2rem;
-    color: white;
+    color: darkorange;
     
 }
 
 .des {
-    color: rgb(194, 193, 193);
+    color: rgb(246, 203, 151);
     text-align: center;
     font-size: 2rem;
     margin-top: 3rem;
@@ -141,12 +127,7 @@ html {
     margin-top: 3rem;
 }
 .resume a button {
-    /* height: 2rem; */
-    /* width: 5rem; */
 
-    /* border-radius: 5px; */
-    /* border: 2px solid black; */
-    /* temp  */
 
     padding: 10px 20px;
     background-color: orange;
@@ -157,7 +138,7 @@ html {
     font-size: 16px;
 }
 .resume a button:hover {
-    /* background-color: rgb(74, 74, 230); */
+    
     background-color: darkorange;
 }
 
@@ -165,9 +146,6 @@ html {
 
 .project {
     background-color: white;
-    /* height: 70vh; */
-    /* display: flex; */
-    /* align-items: center; */
 }
 
 .project h2 {
@@ -200,7 +178,7 @@ html {
     border-radius: 20px;
 }
 .pro:hover {
-    /* border: 2px solid gray; */
+
     box-shadow: 10px 10px 15px gray;
 }
 
