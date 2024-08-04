@@ -86,7 +86,7 @@ html {
 .name {
     /* background-color: red; */
     /* color: rgb(0, 0, 0); */
-    font-size: 5rem;
+    font-size: 4rem;
     
     text-align: center;
     
@@ -108,12 +108,22 @@ html {
 
 @media(min-width: 768px){
     .name {
-        font-size: 10rem;
+        font-size: 8rem;
     }
     .des {
-        font-size: 3rem;
+        font-size: 2rem;
+        margin-top: 1rem;
     }
 }
+
+/* @media(max-width: 375px){
+    .name {
+        font-size: 2rem;
+    }
+    .des {
+        font-size: 20px;
+    }
+} */
 
 @media(max-height: 375px){
     .name {
