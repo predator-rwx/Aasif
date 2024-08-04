@@ -148,7 +148,7 @@ html {
 /* project  */
 
 .project {
-    background-color: rgb(237, 207, 183);
+    background-color: white;
 }
 
 .project h2 {
@@ -160,7 +160,7 @@ html {
 }
 
 .displayProject {
-    background-color: white;
+    background-color: rgb(250, 235, 220);
     border-radius: 10px;
 
     display: grid;
