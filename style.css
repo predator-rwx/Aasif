@@ -76,8 +76,9 @@ html {
 
     background-image: url('res/bg/b4.png');
     background-attachment: fixed;
-    /* background-position: center; */
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     /* background-blend-mode: color-burn; */
 
 }
